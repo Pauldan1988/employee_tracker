@@ -21,5 +21,5 @@ VALUES (100,"Bill", "Obrien", 100, 001),
        (600,"Arthur", "Cromwell", 500, NULL),
        (700,"Betty", "Spaghetti",300, 002),
        (800,"Devin", "Mcknight", 400, 001),
-       (900,"Heath", "Cliff", 500, 002),
+       (900,"Heath", "Cliff", 500, 001),
        (1000,"James", "Bond", 200, NULL);
