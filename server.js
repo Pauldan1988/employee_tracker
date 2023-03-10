@@ -2,6 +2,7 @@ const sequelize = require("./config/config")
 const mysql = require("mysql2")
 const { printTable } = require("console-table-printer");
 const inquirer = require("inquirer");
+const start = require("./assets/questions")
 
 // Connect to database
 const db = mysql.createConnection(
@@ -14,5 +15,36 @@ const db = mysql.createConnection(
   console.log(`Connected to the employees_db database.`)
 );
 db.connect(() => {
-  homeMenu();
+  startMenu();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
